@@ -1,0 +1,16 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "node --watch build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "concurrently": "^7.6.0",
+    "typescript": "^4.9.5"
+  }
+}
